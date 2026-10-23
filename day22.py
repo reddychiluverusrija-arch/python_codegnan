@@ -35,12 +35,12 @@ print('4')
 try:
     print("Examples of runtime errors")
     x = 10 / 0 
-    print(y)                   
+    # print(y)                   
     a = [1, 2, 3]; print(a[5])  
     d = {"a": 1}; print(d["b"])                    
     int("abc")                   
     "a" + 10                    
-    import abcdef                
+    # import abcdef                
 except IndexError:
     print(1)
 except IndexError:
@@ -67,7 +67,7 @@ except:
 
 #not handling error
 # try:
-#     a = 10 / 0 
+#     # a = 10 / 0 
 # except IndexError:
 #     print(1)
 # except ModuleNotFoundError:
@@ -105,7 +105,7 @@ finally:
 
 
 
-#finally
+# finally
 # try:
 #     a = 10 / 0 
 # except IndexError:
